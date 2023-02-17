@@ -4,9 +4,9 @@
   "description": "A demo or playwright testing framework",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test",
-    "test:firefox": "npx playwright test --browser=firefox"
-
+    "test": "npx playwright test --browser=all",
+    "test:firefox": "npx playwright test --browser=firefox",
+    "format": "npx prettier --write ."
   },
   "repository": {
     "type": "git",
